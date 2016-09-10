@@ -1,0 +1,11 @@
+ItemID,ProductName,DepartmentName,Price,StockQuantity
+1,XboX,Games,300,20
+2,"Nike Running",Shoes,26,30
+3,MacBook,Computers,1251,5
+4,HP-laptop,Computers,651,149
+5,"cat food",pets,15,149
+6,"offset printer",technology,27,79
+7,Ipad,technology,290,649
+8,"20in flat Screen",technology,98,230
+9,notebook,"school supplies",3,497
+10,pencil,"school supplies",2,427
