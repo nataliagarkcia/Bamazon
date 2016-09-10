@@ -133,15 +133,18 @@ var nextpurchase = function (){
         message: "Would you like to purchase another item",
     }]).then(function (answer) {
 
-        if (true) {
+        if (answer.newpurchase === true) {
             start();
                 }           
-        else  {
-        connection.end(function(err){
+        else { end();
+                  }
+        })
+};
+
+
+var end = function(){
+     connection.end(function(err){
             console.log("\n");
             console.log('Thank you for your purchase and come back soon')
                 })
-
-            }
-        })
-};
+}
